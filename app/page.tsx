@@ -1,5 +1,6 @@
 'use client'
 import Introduction from "@/components/Introduction";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="flex flex-col bg-background/10">
       <Introduction />
       <Skills />
+      <Projects />
     </main>
   );
 }

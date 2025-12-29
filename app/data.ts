@@ -75,6 +75,11 @@ export const skills = [
 
     // === Generative AI ===
     {
+        name: "Vercel AI SDK",
+        type: "Generative AI",
+        logo: "/vercel.svg",
+    },
+    {
         name: "LangChain.js",
         type: "Generative AI",
         logo: "/langchain.svg",
@@ -83,11 +88,6 @@ export const skills = [
         name: "Google Gemini API",
         type: "Generative AI",
         logo: "/gemini.svg",
-    },
-    {
-        name: "Vercel AI SDK",
-        type: "Generative AI",
-        logo: "/vercel.svg",
     },
     // === Frontend / Data Fetching ===
     {
@@ -100,8 +100,6 @@ export const skills = [
         type: "Tools",
         logo: "/reactquery.svg",
     },
-
-    // === Backend / Platforms ===
     {
         name: "Mongoose",
         type: "Backend",
@@ -215,18 +213,72 @@ export const contact = [
         logo: "/email.svg",
     },
     {
-        name: "Linkedin",
-        url: "http://linkedin.com/in/akil-khatri",
-        logo: "/linkedin.svg",
-    },
-    {
         name: "Github",
         url: "http://github.com/akilkhatri104",
         logo: "/github_light.svg",
     },
     {
+        name: "Linkedin",
+        url: "http://linkedin.com/in/akil-khatri",
+        logo: "/linkedin.svg",
+    },
+    {
         name: "LeetCode",
         url: "https://leetcode.com/u/akilkhatri/",
         logo: "/leetcode.svg",
+    },
+];
+
+export const projects = [
+    {
+        title: "ChatPDF - AI SaaS Platform",
+        description:
+            "A production-ready AI SaaS that enables conversational search and Q&A over uploaded PDF documents using modern LLM and vector database tooling.",
+        highlights: [
+            "PDF upload, vector embedding & semantic search",
+            "Chat-style interface with LLM-powered answers",
+            "Authentication, payments & cloud deployment",
+        ],
+        techStack: [
+            "Next.js (App Router)",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "LangChain.js",
+            "PineconeDB",
+            "NeonDB (PostgreSQL)",
+            "Drizzle ORM",
+            "AWS S3",
+            "Clerk",
+            "Razorpay",
+            "TanStack Query",
+        ],
+        links: {
+            github: "https://github.com/akilkhatri104/chatpdf-saas",
+            live: "https://chatpdf-saas-yji4j.ondigitalocean.app",
+        },
+    },
+    {
+        title: "VideoTube – Video Sharing Backend API",
+        description:
+            "A scalable backend API inspired by YouTube, implementing authentication, video management, and social features using Node.js and MongoDB.",
+        highlights: [
+            "JWT-based authentication & authorization",
+            "Video upload, likes, comments & playlists",
+            "Secure media handling and cloud storage",
+        ],
+        techStack: [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "JWT",
+            "Bcrypt",
+            "Cloudinary",
+            "Multer",
+        ],
+        links: {
+            github: "https://github.com/akilkhatri104/videotube-javascript-backend",
+        },
     },
 ];

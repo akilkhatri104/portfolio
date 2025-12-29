@@ -28,6 +28,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
       >
         {children}
+
+        <footer className="text-center p-2">
+          <h1>Designed & Developed by <strong>Akil Khatri</strong></h1>
+          <a href="https://github.com/akilkhatri104/portfolio" className="text-blue-500 hover:underline active:text-gray-300" target="_blank">Code (Github)</a>
+        </footer>
       </body>
     </html>
   );

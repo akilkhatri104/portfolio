@@ -22,7 +22,7 @@ function Introduction() {
                     <h1 className="text-xl font-thin">
                         {greeting}
                     </h1>
-                    <h1 className="text-3xl">
+                    <h1 className="text-3xl font-bold">
                         Hi, I&apos;m Akil Khatri
                     </h1>
                     <p className="text-xl">
