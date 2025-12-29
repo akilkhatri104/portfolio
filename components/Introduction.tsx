@@ -16,12 +16,16 @@ function Introduction() {
         greeting = "Good Evening";
     }
     return (
-        <section id="introduction" className="flex flex-col-reverse md:flex-row border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto">
+        <section id="introduction" className="flex flex-col-reverse md:flex-row border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto m-1">
             <div className="md:w-2/3 mt-3 md:mt-0">
-                <h1 className="text-3xl">
+                <h1 className="text-xl font-thin">
                     {greeting}
                 </h1>
-                <p className="text-xl">Hi, I am <strong>Akil Khatri</strong>, an aspiring Full-Stack Engineer, based in Gujarat, India, skilled in TypeScript/JavaScript, React.js, and Node.js, with a focus on building and deploying robust web applications. Experienced in modern development practices, including integrating Generative AI (Langchain, PineconeDB), utilizing cloud services (AWS S3, Vercel), and developing secure RESTful APIs and user authentication systems.
+                <h1 className="text-3xl">
+                    Hi, I&apos;m Akil Khatri
+                </h1>
+                <p className="text-xl">
+                    <strong>Full-Stack Engineer</strong> from <strong>India</strong> Building scalable, high-performance web applications with Next.js, React, and Node.js.Passionate about SaaS, cloud systems, and AI-powered products.
                 </p>
 
                 <Button asChild className="mt-3 mb-3">
