@@ -3,23 +3,26 @@ export const resumeLink = `https://docs.google.com/document/d/11PICqkHzOi2qBUgpp
 export const skillTypes = [
     "Language",
     "Frontend",
-    "Tools",
     "Backend",
     "Database",
+    "Generative AI",
+    "Tools",
 ];
 
 export const skills = [
-    {
-        name: "JavaScript",
-        type: "Language",
-        logo: "/javascript.svg",
-    },
+    // === Core Languages ===
     {
         name: "TypeScript",
         type: "Language",
         logo: "/typescript.svg",
     },
+    {
+        name: "JavaScript",
+        type: "Language",
+        logo: "/javascript.svg",
+    },
 
+    // === Frontend (Primary Strength) ===
     {
         name: "Next.js",
         type: "Frontend",
@@ -40,16 +43,8 @@ export const skills = [
         type: "Frontend",
         logo: "/shadcn-ui.svg",
     },
-    {
-        name: "Redux Toolkit",
-        type: "Frontend",
-        logo: "/redux.svg",
-    },
-    {
-        name: "TanStack (React) Query",
-        type: "Tools",
-        logo: "/reactquery.svg",
-    },
+
+    // === Backend ===
     {
         name: "Node.js",
         type: "Backend",
@@ -65,8 +60,10 @@ export const skills = [
         type: "Backend",
         logo: "/drizzle-orm_light.svg",
     },
+
+    // === Databases ===
     {
-        name: "NeonDB",
+        name: "NeonDB (PostgreSQL)",
         type: "Database",
         logo: "/neon.svg",
     },
@@ -74,6 +71,125 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
         logo: "/mongodb-icon-light.svg",
+    },
+
+    // === Generative AI ===
+    {
+        name: "LangChain.js",
+        type: "Generative AI",
+        logo: "/langchain.svg",
+    },
+    {
+        name: "Google Gemini API",
+        type: "Generative AI",
+        logo: "/gemini.svg",
+    },
+    {
+        name: "Vercel AI SDK",
+        type: "Generative AI",
+        logo: "/vercel.svg",
+    },
+    // === Frontend / Data Fetching ===
+    {
+        name: "Redux Toolkit",
+        type: "Frontend",
+        logo: "/redux.svg",
+    },
+    {
+        name: "TanStack (React) Query",
+        type: "Tools",
+        logo: "/reactquery.svg",
+    },
+
+    // === Backend / Platforms ===
+    {
+        name: "Mongoose",
+        type: "Backend",
+        logo: "/mongoose.svg",
+    },
+    {
+        name: "Supabase",
+        type: "Backend",
+        logo: "/supabase.svg",
+    },
+    {
+        name: "Appwrite",
+        type: "Backend",
+        logo: "/appwrite.svg",
+    },
+
+    // === Databases / Vector DBs ===
+    {
+        name: "PineconeDB",
+        type: "Database",
+        logo: "/pinecone.svg",
+    },
+    {
+        name: "AstraDB",
+        type: "Database",
+        logo: "/astradb.svg",
+    },
+    // === Tools & DevOps ===
+    {
+        name: "Git",
+        type: "Tools",
+        logo: "/git.svg",
+    },
+    {
+        name: "GitHub",
+        type: "Tools",
+        logo: "/github_light.svg",
+    },
+    {
+        name: "Docker",
+        type: "Tools",
+        logo: "/docker.svg",
+    },
+    {
+        name: "Vercel",
+        type: "Tools",
+        logo: "/vercel.svg",
+    },
+    {
+        name: "AWS (S3)",
+        type: "Tools",
+        logo: "/aws_light.svg",
+    },
+    {
+        name: "DigitalOcean",
+        type: "Tools",
+        logo: "/digitalocean.svg",
+    },
+    {
+        name: "Cloudinary",
+        type: "Tools",
+        logo: "/cloudinary.svg",
+    },
+    {
+        name: "Postman",
+        type: "Tools",
+        logo: "/postman.svg",
+    },
+    {
+        name: "Clerk",
+        type: "Tools",
+        logo: "/clerk-icon-light.svg",
+    },
+    {
+        name: "Razorpay",
+        type: "Tools",
+        logo: "/razorpay.svg",
+    },
+    // === Additional Languages ===
+    {
+        name: "Python",
+        type: "Language",
+        logo: "/python.svg",
+    },
+    {
+        name: "SQL",
+        type: "Language",
+        logo: "/sql.svg",
     },
     {
         name: "C",
@@ -89,11 +205,6 @@ export const skills = [
         name: "Java",
         type: "Language",
         logo: "/java.svg",
-    },
-    {
-        name: "SQL",
-        type: "Language",
-        logo: "/sql.svg",
     },
 ];
 

@@ -17,18 +17,20 @@ function Introduction() {
     }
     return (
         <section id="introduction" className="flex flex-col-reverse md:flex-row border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto m-1">
-            <div className="md:w-2/3 mt-3 md:mt-0">
-                <h1 className="text-xl font-thin">
-                    {greeting}
-                </h1>
-                <h1 className="text-3xl">
-                    Hi, I&apos;m Akil Khatri
-                </h1>
-                <p className="text-xl">
-                    <strong>Full-Stack Engineer</strong> from <strong>India</strong> Building scalable, high-performance web applications with Next.js, React, and Node.js.Passionate about SaaS, cloud systems, and AI-powered products.
-                </p>
+            <div className="md:w-2/3 mt-3 md:mt-0 flex flex-col justify-between">
+                <div>
+                    <h1 className="text-xl font-thin">
+                        {greeting}
+                    </h1>
+                    <h1 className="text-3xl">
+                        Hi, I&apos;m Akil Khatri
+                    </h1>
+                    <p className="text-xl">
+                        <strong>Full-Stack Engineer</strong> from <strong>India</strong> Building scalable, high-performance web applications with Next.js, React, and Node.js.Passionate about SaaS, cloud systems, and AI-powered products.
+                    </p>
+                </div>
 
-                <Button asChild className="mt-3 mb-3">
+                <Button asChild className="mt-3 w-fit mb-3">
                     <a href={resumeLink} target="_blank">
                         Resume <ExternalLinkIcon />
                     </a>
