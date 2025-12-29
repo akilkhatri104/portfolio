@@ -16,7 +16,7 @@ function Introduction() {
         greeting = "Good Evening";
     }
     return (
-        <section id="introduction" className="flex flex-col-reverse md:flex-row border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto m-1">
+        <section id="introduction" className="flex flex-col-reverse md:flex-row border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto m-5">
             <div className="md:w-2/3 mt-3 md:mt-0 flex flex-col justify-between">
                 <div>
                     <h1 className="text-xl font-thin">

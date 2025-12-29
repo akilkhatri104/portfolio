@@ -21,7 +21,7 @@ function Skills() {
         ? filteredSkills
         : filteredSkills.slice(0, INITIAL_COUNT)
     return (
-        <section id='skills' className='flex flex-col border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto m-1'>
+        <section id='skills' className='flex flex-col border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto m-5'>
             <h1 className='text-3xl mb-3'>Skills</h1>
             <Select value={skillType} onValueChange={val => {
                 setShowAll(false)
