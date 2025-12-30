@@ -26,7 +26,7 @@ function Introduction() {
                         Hi, I&apos;m Akil Khatri
                     </h1>
                     <p className="text-lg">
-                        <strong>Full-Stack Engineer</strong> from <strong>India</strong> Building scalable, high-performance web applications with Next.js, React, and Node.js.Passionate about SaaS, cloud systems, and AI-powered products.
+                        <strong>Full-Stack Engineer</strong> from <strong>India</strong> Building scalable, high-performance web applications with Next.js, React, and Node.js. Passionate about SaaS, cloud systems, and AI-powered products.
                     </p>
                 </div>
 
