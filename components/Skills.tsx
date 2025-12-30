@@ -8,6 +8,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
+import { Button } from './ui/button'
 
 
 function Skills() {
@@ -22,7 +23,7 @@ function Skills() {
         : filteredSkills.slice(0, INITIAL_COUNT)
     return (
         <section id='skills' className='flex flex-col border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto m-5'>
-            <h1 className='text-3xl mb-3 font-bold'>Skills</h1>
+            <h1 className='text-2xl mb-3 font-bold'>Skills</h1>
             <Select value={skillType} onValueChange={val => {
                 setShowAll(false)
                 setSkillType(val)
@@ -40,18 +41,19 @@ function Skills() {
 
             <ul className='flex flex-wrap gap-2 transition-all duration-300'>
                 {visibleSkills.map(skill =>
-                    <li key={skill.name} className='flex text-2xl font-semibold bg-accent-foreground text-accent mr-2 p-2 rounded-xl mb-2 h-12'>
+                    <li key={skill.name} className='flex text-lg font-semibold bg-accent-foreground text-accent mr-2 p-2 rounded-xl mb-2 h-12'>
                         <Image src={skill.logo} width={30} height={30} alt={skill.name} className='mr-2' /> {skill.name}
                     </li>
                 )}
             </ul>
             {filteredSkills.length > INITIAL_COUNT && (
-                <button
+                <Button
                     onClick={() => setShowAll(prev => !prev)}
-                    className="mt-4 text-sm font-medium text-primary underline underline-offset-4"
+                    className="mt-4 rounded-xl underline underline-offset-4"
+                    variant='outline'
                 >
                     {showAll ? "Show less" : "Show more"}
-                </button>
+                </Button>
             )}
 
         </section>

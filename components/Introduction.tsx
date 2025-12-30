@@ -22,19 +22,20 @@ function Introduction() {
                     <h1 className="text-xl font-thin">
                         {greeting}
                     </h1>
-                    <h1 className="text-3xl font-bold">
+                    <h1 className="text-2xl font-bold">
                         Hi, I&apos;m Akil Khatri
                     </h1>
-                    <p className="text-xl">
+                    <p className="text-lg">
                         <strong>Full-Stack Engineer</strong> from <strong>India</strong> Building scalable, high-performance web applications with Next.js, React, and Node.js.Passionate about SaaS, cloud systems, and AI-powered products.
                     </p>
                 </div>
 
-                <Button asChild className="mt-3 w-fit mb-3">
+                <Button asChild className="mt-3 w-fit mb-3" >
                     <a href={resumeLink} target="_blank">
                         Resume <ExternalLinkIcon />
                     </a>
                 </Button>
+
 
                 <ul className="flex flex-wrap gap-4 mt-3">
                     {contact.map(contact =>

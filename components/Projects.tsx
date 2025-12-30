@@ -5,13 +5,13 @@ import { ExternalLinkIcon, } from "lucide-react"
 function Projects() {
     return (
         <section id="projects" className='flex flex-col border-2 border-accent-foreground rounded-2xl p-5 md:w-1/2 mt-4 bg-background mx-auto m-5'>
-            <h1 className="text-3xl mb-3 font-bold">Projects</h1>
+            <h1 className="text-2xl mb-3 font-bold">Projects</h1>
 
             {projects.map(project => (
                 <>
                     <hr />
-                    <div key={project.title} className="mt-2 text-xl mb-5">
-                        <h2 className="text-2xl font-semibold">{project.title}</h2>
+                    <div key={project.title} className="mt-2 text-lg mb-5">
+                        <h2 className="text-xl font-semibold">{project.title}</h2>
                         <div className="text-blue-500 flex gap-5 mt-2">
                             {project.links.github && <a className="flex hover:underline" target="_blank" href={project.links.github}>Code <ExternalLinkIcon className="ml-1" /></a>}
                             {project.links.live && <a className="flex hover:underline" target="_blank" href={project.links.live}>Visit <ExternalLinkIcon className="ml-1" /></a>}

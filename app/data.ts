@@ -1,3 +1,7 @@
+// export const resumeLink = `https://docs.google.com/document/d/11PICqkHzOi2qBUgppsHzy-E9DbtWdbAmzD4Cdx0Q7XE/view`;
+// export const resumeLink = `https://drive.google.com/file/d/1el5X7jVAJYb7PpWxyuGW7vlKwAEYRSeo/view?usp=sharing`;
+// export const resumeLink = `/resume.pdf`;
+
 export const resumeLink = `https://docs.google.com/document/d/11PICqkHzOi2qBUgppsHzy-E9DbtWdbAmzD4Cdx0Q7XE/export?format=pdf`;
 
 export const skillTypes = [
@@ -280,5 +284,14 @@ export const projects = [
         links: {
             github: "https://github.com/akilkhatri104/videotube-javascript-backend",
         },
+    },
+];
+
+export const education = [
+    {
+        instituteName: "Parul University, Vadodara",
+        course: "B.Tech - Artificial Inteligence",
+        cgpa: "8.41",
+        time: "Sept 2023 - Present",
     },
 ];
