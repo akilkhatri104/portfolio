@@ -7,7 +7,7 @@ function Education() {
 
             {education.map(ed =>
                 <div key={ed.course}>
-                    <h2 className="font-semibold">{ed.course} - {ed.instituteName}</h2>
+                    <h2 className="font-semibold">{ed.course} | {ed.instituteName}</h2>
                     <p>{ed.time}</p>
                     <p>CGPA: {ed.cgpa}</p>
                 </div>
