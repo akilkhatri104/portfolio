@@ -2,6 +2,11 @@ import Image from "next/image";
 import { contact, resumeLink } from "@/app/data";
 import { Button } from "./ui/button";
 import { ExternalLinkIcon } from "lucide-react";
+import {
+    HoverCard,
+    HoverCardContent,
+    HoverCardTrigger,
+} from "@/components/ui/hover-card"
 
 function Introduction() {
     const hour = new Date().getHours();
@@ -39,11 +44,19 @@ function Introduction() {
 
                 <ul className="flex flex-wrap gap-4 mt-3">
                     {contact.map(contact =>
-                        <li className="hover:scale-110 transition bg-accent-foreground p-2 rounded-full" key={contact.name}>
-                            <a href={contact.url} target="_blank">
-                                <Image src={contact.logo} width={25} height={25} alt={contact.name} />
-                            </a>
-                        </li>
+                        <HoverCard key={contact.name} openDelay={100} closeDelay={200}>
+                            <HoverCardTrigger>
+                                <li className="hover:scale-110 transition bg-accent-foreground p-2 rounded-full" key={contact.name}>
+                                    <a href={contact.url} target="_blank">
+                                        <Image src={contact.logo} width={25} height={25} alt={contact.name} />
+                                    </a>
+                                </li>
+                            </HoverCardTrigger>
+                            <HoverCardContent className="text-center w-fit rounded-xl">
+                                {contact.name}
+                            </HoverCardContent>
+                        </HoverCard>
+
                     )}
                 </ul>
             </div>

@@ -222,6 +222,11 @@ export const contact = [
         logo: "/github_light.svg",
     },
     {
+        name: "Fiverr",
+        url: "https://www.fiverr.com/s/38QYmlL",
+        logo: "/fiverr.svg",
+    },
+    {
         name: "Linkedin",
         url: "http://linkedin.com/in/akil-khatri",
         logo: "/linkedin.svg",
