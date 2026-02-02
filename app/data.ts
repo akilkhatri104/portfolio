@@ -264,7 +264,7 @@ export const projects = [
         ],
         links: {
             github: "https://github.com/akilkhatri104/chatpdf-saas",
-            live: "https://chatpdf-saas-yji4j.ondigitalocean.app",
+            live: "https://chatpdf-saas-bay.vercel.app",
         },
     },
     {
