@@ -238,6 +238,37 @@ export const contact = [
     },
 ];
 
+export const contactRedirects = [
+    {
+        name: "Email",
+        url: "mailto:akilkhatri.work@gmail.com",
+    },
+    {
+        name: "Github",
+        url: "http://github.com/akilkhatri104",
+    },
+    {
+        name: "Fiverr",
+        url: "https://www.fiverr.com/s/38QYmlL",
+    },
+    {
+        name: "Linkedin",
+        url: "http://linkedin.com/in/akil-khatri",
+    },
+    {
+        name: "LeetCode",
+        url: "https://leetcode.com/u/akilkhatri/",
+    },
+    {
+        name: "Insta",
+        url: "https://www.instagram.com/akilthekhatri/",
+    },
+    {
+        name: "Twitter",
+        url: "https://x.com/AkilKhatri61892?s=20",
+    },
+];
+
 export const projects = [
     {
         title: "ChatPDF - AI SaaS Platform",

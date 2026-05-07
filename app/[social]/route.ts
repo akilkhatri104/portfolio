@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { contact } from "../data";
+import { contactRedirects } from "../data";
 
 export async function GET(
     req: NextRequest,
@@ -7,7 +7,7 @@ export async function GET(
 ) {
     const { social } = await params;
 
-    const contactObj = contact.find(
+    const contactObj = contactRedirects.find(
         (c) => c.name.toLowerCase() === social.toLowerCase(),
     );
 
