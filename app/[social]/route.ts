@@ -3,7 +3,7 @@ import { contact } from "../data";
 
 export async function GET(
     req: NextRequest,
-    { params }: { params: { social: string } },
+    { params }: { params: Promise<{ social: string }> },
 ) {
     const { social } = await params;
 
