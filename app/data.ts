@@ -217,6 +217,11 @@ export const contact = [
     logo: "/email.svg",
   },
   {
+    name: "Whatsapp",
+    url: "https://wa.me/919662822709?text=Hi",
+    logo: "/whatsapp.svg",
+  },
+  {
     name: "Github",
     url: "http://github.com/akilkhatri104",
     logo: "/github_light.svg",
@@ -267,6 +272,14 @@ export const contactRedirects = [
     name: "Twitter",
     url: "https://x.com/AkilKhatri61892?s=20",
   },
+  {
+    name: "Call",
+    url: "tel:9662822709",
+  },
+  {
+    name: "Whatsapp",
+    url: "https://wa.me/919662822709?text=Hi",
+  },
 ];
 
 export const projects = [
@@ -295,7 +308,7 @@ export const projects = [
     ],
     links: {
       github: "https://github.com/akilkhatri104/chatpdf-saas",
-      live: "https://chatpdf-saas-bay.vercel.app",
+      live: "https://chatpdf-saas.akilkhatri.me",
     },
   },
   {
